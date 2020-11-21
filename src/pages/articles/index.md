@@ -1,5 +1,5 @@
 ---
-templateKey: 'articles'
+templateKey: 'product-page'
 path: /articles
 title: Our Coffee
 image: /img/jumbotron.jpg
