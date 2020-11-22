@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import WorkRoll from '../../components/WorkRoll'
+import ArticleRoll from '../../components/ArticleRoll'
 
-export default class WorkIndexPage extends React.Component {
+export default class ArticleIndexPage extends React.Component {
   render() {
     return (
       <Layout>
@@ -28,7 +28,7 @@ export default class WorkIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <WorkRoll />
+              <ArticleRoll />
             </div>
           </div>
         </section>

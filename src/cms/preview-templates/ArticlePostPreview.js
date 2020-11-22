@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { WorkPostTemplate } from '../../templates/work-post'
+import { ArticlePostTemplate } from '../../templates/article-post'
 
-const WorkPostPreview = ({ entry, widgetFor }) => {
+const ArticlePostPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
   return (
-    <WorkPostTemplate
+    <ArticlePostTemplate
       content={widgetFor('body')}
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}
@@ -14,11 +14,11 @@ const WorkPostPreview = ({ entry, widgetFor }) => {
   )
 }
 
-WorkPostPreview.propTypes = {
+ArticlePostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default WorkPostPreview
+export default ArticlePostPreview
