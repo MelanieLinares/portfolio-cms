@@ -1,7 +1,7 @@
 ---
 templateKey: 'product-page'
 path: /articles
-title: Our Coffee
+title: Our Worka Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
